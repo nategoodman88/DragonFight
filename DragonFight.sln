@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DragonFight", "DragonFight\DragonFight.csproj", "{8C9A8750-C196-47ED-8653-C3BE7209E4FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C9A8750-C196-47ED-8653-C3BE7209E4FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C9A8750-C196-47ED-8653-C3BE7209E4FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C9A8750-C196-47ED-8653-C3BE7209E4FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C9A8750-C196-47ED-8653-C3BE7209E4FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD20EE93-788A-44BD-B819-64267F72271E}
+	EndGlobalSection
+EndGlobal

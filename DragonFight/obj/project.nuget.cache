@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "fVpGIeyC2YvgNyHBWvZ0qMLgG6x5ZONGuTYP877QT9nLe7ZPLx9b1Y5FnvTw1BOBbjc6DTiITw62NgioZYI4KA==",
+  "success": true,
+  "projectFilePath": "C:\\Programming\\C#\\New folder\\DragonFight\\DragonFight\\DragonFight.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nateg_mayx349\\.nuget\\packages\\alienfruit.fluentconsole\\1.0.10\\alienfruit.fluentconsole.1.0.10.nupkg.sha512",
+    "C:\\Users\\nateg_mayx349\\.nuget\\packages\\alienfruit.fluentconsole.asciiart\\1.0.10\\alienfruit.fluentconsole.asciiart.1.0.10.nupkg.sha512",
+    "C:\\Users\\nateg_mayx349\\.nuget\\packages\\alienfruit.otml\\1.1.0\\alienfruit.otml.1.1.0.nupkg.sha512",
+    "C:\\Users\\nateg_mayx349\\.nuget\\packages\\figgle\\0.5.1\\figgle.0.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}

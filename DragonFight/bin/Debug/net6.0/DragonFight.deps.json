@@ -1,0 +1,91 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DragonFight/1.0.0": {
+        "dependencies": {
+          "AlienFruit.FluentConsole.AsciiArt": "1.0.10",
+          "Figgle": "0.5.1"
+        },
+        "runtime": {
+          "DragonFight.dll": {}
+        }
+      },
+      "AlienFruit.FluentConsole/1.0.10": {
+        "runtime": {
+          "lib/netstandard2.0/AlienFruit.FluentConsole.dll": {
+            "assemblyVersion": "1.0.10.0",
+            "fileVersion": "1.0.10.0"
+          }
+        }
+      },
+      "AlienFruit.FluentConsole.AsciiArt/1.0.10": {
+        "dependencies": {
+          "AlienFruit.FluentConsole": "1.0.10",
+          "AlienFruit.Otml": "1.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AlienFruit.FluentConsole.AsciiArt.dll": {
+            "assemblyVersion": "1.0.10.0",
+            "fileVersion": "1.0.10.0"
+          }
+        }
+      },
+      "AlienFruit.Otml/1.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/AlienFruit.Otml.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "Figgle/0.5.1": {
+        "runtime": {
+          "lib/netstandard2.0/Figgle.dll": {
+            "assemblyVersion": "0.5.1.0",
+            "fileVersion": "0.5.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DragonFight/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AlienFruit.FluentConsole/1.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-p/deDQnx2NBg5OfJYopV1ejvH58CpnOySuzoQPmepfp5RIbEvlXFdQe5YnkNGTybvOwPiAAZXsYZST+pwecdZQ==",
+      "path": "alienfruit.fluentconsole/1.0.10",
+      "hashPath": "alienfruit.fluentconsole.1.0.10.nupkg.sha512"
+    },
+    "AlienFruit.FluentConsole.AsciiArt/1.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c9pGtkwg8TkawYzj+yvHIiJUqrWJtZdN45GvL78VzB/oyYgBC4TrE6bxpdXFF7ekSJ3OiVpbcxLa38pSjhO7xA==",
+      "path": "alienfruit.fluentconsole.asciiart/1.0.10",
+      "hashPath": "alienfruit.fluentconsole.asciiart.1.0.10.nupkg.sha512"
+    },
+    "AlienFruit.Otml/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YddOKdWg+wqfokyO/bYPwGteKWzDc7JaxnVBf0XgOSk5g1zoB46wGD/A4cLdeK4eGsMZZuEWpnBsOXo6SHmznw==",
+      "path": "alienfruit.otml/1.1.0",
+      "hashPath": "alienfruit.otml.1.1.0.nupkg.sha512"
+    },
+    "Figgle/0.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F21k9oOGRgSb+1dCX0kFDYRBbShSMFvL49xjNmF/dsJwiN5M7zBaSWsYKpi/KZWXVIIxNzTbNTq9ZciucaHYMQ==",
+      "path": "figgle/0.5.1",
+      "hashPath": "figgle.0.5.1.nupkg.sha512"
+    }
+  }
+}

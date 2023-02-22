@@ -1,0 +1,186 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "AlienFruit.FluentConsole/1.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/AlienFruit.FluentConsole.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AlienFruit.FluentConsole.dll": {}
+        }
+      },
+      "AlienFruit.FluentConsole.AsciiArt/1.0.10": {
+        "type": "package",
+        "dependencies": {
+          "AlienFruit.FluentConsole": "1.0.10",
+          "AlienFruit.Otml": "1.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/AlienFruit.FluentConsole.AsciiArt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AlienFruit.FluentConsole.AsciiArt.dll": {}
+        }
+      },
+      "AlienFruit.Otml/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/AlienFruit.Otml.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AlienFruit.Otml.dll": {}
+        }
+      },
+      "Figgle/0.5.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Figgle.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Figgle.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AlienFruit.FluentConsole/1.0.10": {
+      "sha512": "p/deDQnx2NBg5OfJYopV1ejvH58CpnOySuzoQPmepfp5RIbEvlXFdQe5YnkNGTybvOwPiAAZXsYZST+pwecdZQ==",
+      "type": "package",
+      "path": "alienfruit.fluentconsole/1.0.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "alienfruit.fluentconsole.1.0.10.nupkg.sha512",
+        "alienfruit.fluentconsole.nuspec",
+        "lib/netstandard2.0/AlienFruit.FluentConsole.dll"
+      ]
+    },
+    "AlienFruit.FluentConsole.AsciiArt/1.0.10": {
+      "sha512": "c9pGtkwg8TkawYzj+yvHIiJUqrWJtZdN45GvL78VzB/oyYgBC4TrE6bxpdXFF7ekSJ3OiVpbcxLa38pSjhO7xA==",
+      "type": "package",
+      "path": "alienfruit.fluentconsole.asciiart/1.0.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "alienfruit.fluentconsole.asciiart.1.0.10.nupkg.sha512",
+        "alienfruit.fluentconsole.asciiart.nuspec",
+        "lib/netstandard2.0/AlienFruit.FluentConsole.AsciiArt.dll"
+      ]
+    },
+    "AlienFruit.Otml/1.1.0": {
+      "sha512": "YddOKdWg+wqfokyO/bYPwGteKWzDc7JaxnVBf0XgOSk5g1zoB46wGD/A4cLdeK4eGsMZZuEWpnBsOXo6SHmznw==",
+      "type": "package",
+      "path": "alienfruit.otml/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "alienfruit.otml.1.1.0.nupkg.sha512",
+        "alienfruit.otml.nuspec",
+        "lib/netstandard2.0/AlienFruit.Otml.dll"
+      ]
+    },
+    "Figgle/0.5.1": {
+      "sha512": "F21k9oOGRgSb+1dCX0kFDYRBbShSMFvL49xjNmF/dsJwiN5M7zBaSWsYKpi/KZWXVIIxNzTbNTq9ZciucaHYMQ==",
+      "type": "package",
+      "path": "figgle/0.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "figgle.0.5.1.nupkg.sha512",
+        "figgle.nuspec",
+        "lib/netstandard2.0/Figgle.dll",
+        "lib/netstandard2.0/Figgle.xml",
+        "logo-square-256px.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "AlienFruit.FluentConsole.AsciiArt >= 1.0.10",
+      "Figgle >= 0.5.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\nateg_mayx349\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Programming\\C#\\New folder\\DragonFight\\DragonFight\\DragonFight.csproj",
+      "projectName": "DragonFight",
+      "projectPath": "C:\\Programming\\C#\\New folder\\DragonFight\\DragonFight\\DragonFight.csproj",
+      "packagesPath": "C:\\Users\\nateg_mayx349\\.nuget\\packages\\",
+      "outputPath": "C:\\Programming\\C#\\New folder\\DragonFight\\DragonFight\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\nateg_mayx349\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "AlienFruit.FluentConsole.AsciiArt": {
+            "target": "Package",
+            "version": "[1.0.10, )"
+          },
+          "Figgle": {
+            "target": "Package",
+            "version": "[0.5.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
