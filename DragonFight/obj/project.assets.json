@@ -116,11 +116,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Programming\\C#\\New folder\\DragonFight\\DragonFight\\DragonFight.csproj",
+      "projectUniqueName": "C:\\Programming\\C#\\C#\\DragonFight\\DragonFight\\DragonFight.csproj",
       "projectName": "DragonFight",
-      "projectPath": "C:\\Programming\\C#\\New folder\\DragonFight\\DragonFight\\DragonFight.csproj",
+      "projectPath": "C:\\Programming\\C#\\C#\\DragonFight\\DragonFight\\DragonFight.csproj",
       "packagesPath": "C:\\Users\\nateg_mayx349\\.nuget\\packages\\",
-      "outputPath": "C:\\Programming\\C#\\New folder\\DragonFight\\DragonFight\\obj\\",
+      "outputPath": "C:\\Programming\\C#\\C#\\DragonFight\\DragonFight\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

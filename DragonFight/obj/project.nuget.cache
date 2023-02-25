@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fVpGIeyC2YvgNyHBWvZ0qMLgG6x5ZONGuTYP877QT9nLe7ZPLx9b1Y5FnvTw1BOBbjc6DTiITw62NgioZYI4KA==",
+  "dgSpecHash": "ikuqZ6v9+NGBnNaWptOuvqx8oaqVnMbKQbPNJVNJ/9JiRR6+N/rMHvZKqhGKZuS2FsPGWqrn369vJVvr7DPCZQ==",
   "success": true,
-  "projectFilePath": "C:\\Programming\\C#\\New folder\\DragonFight\\DragonFight\\DragonFight.csproj",
+  "projectFilePath": "C:\\Programming\\C#\\C#\\DragonFight\\DragonFight\\DragonFight.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nateg_mayx349\\.nuget\\packages\\alienfruit.fluentconsole\\1.0.10\\alienfruit.fluentconsole.1.0.10.nupkg.sha512",
     "C:\\Users\\nateg_mayx349\\.nuget\\packages\\alienfruit.fluentconsole.asciiart\\1.0.10\\alienfruit.fluentconsole.asciiart.1.0.10.nupkg.sha512",

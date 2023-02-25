@@ -32,12 +32,6 @@ internal class Program
             "Having rested for all this time, Edel sets out on a surprise attack on Aerono in hopes of reigniting the war and starting a new brood" + "\n" +
             "With defenses unprepared and battalions low, a new hero rises up from the shadows to do battle with Edel and subdue the dragon once and for all...";
 
-        string name = "";
-        string race = "";
-        string cl = "";
-
-        CharacterCreate c = new CharacterCreate(name,race,cl);
-
         Console.WriteLine(FiggleFonts.Standard.Render("Dragon Fight!"));
         await Task.Delay(1000);
 
@@ -51,21 +45,7 @@ internal class Program
         }
         await Task.Delay(2000);
 
-        // enter character creation, check entered info is okay with player before moving on
-        Console.WriteLine("What is your name?");
-        name = Console.ReadLine();
-        c.Name = name;
-        await Task.Delay(1000);
-
-
-        // to-do: 1.implement race switch case which describes the attribute changes for each race 2.implement class switch case which describes the attribute changes and abilites of each class
-
-        Console.WriteLine("Here is your character, is this okay?:");
-        await Task.Delay(1000);
-
-        Console.WriteLine("Name: "
-            + c.Name);
-
+        CharacterCreate c = new CharacterCreate();
 
         Console.ReadLine();  // generic for testing, so app doesn't auto close
     }
