@@ -46,6 +46,8 @@ internal class Program
         await Task.Delay(2000);
 
         CharacterCreate c = new CharacterCreate();
+        //equip/shop phase
+        //battle phase 
 
         Console.ReadLine();  // generic for testing, so app doesn't auto close
     }
