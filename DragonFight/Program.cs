@@ -50,11 +50,9 @@ public class Program
             CharacterCreate c = new();
             //equipment phase
             EquipPhase e = new();
-
             //battle phase 
 
             //testing
             Console.ReadLine();
-            Console.WriteLine(c.Name);
         }
     }
