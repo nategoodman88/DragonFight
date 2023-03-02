@@ -18,23 +18,23 @@ C:\Programming\C#\New folder\DragonFight\DragonFight\obj\Debug\net6.0\DragonFigh
 C:\Programming\C#\New folder\DragonFight\DragonFight\bin\Debug\net6.0\AlienFruit.FluentConsole.dll
 C:\Programming\C#\New folder\DragonFight\DragonFight\bin\Debug\net6.0\AlienFruit.FluentConsole.AsciiArt.dll
 C:\Programming\C#\New folder\DragonFight\DragonFight\bin\Debug\net6.0\AlienFruit.Otml.dll
-C:\Programming\C#\C#\DragonFight\DragonFight\bin\Debug\net6.0\DragonFight.exe
 C:\Programming\C#\C#\DragonFight\DragonFight\bin\Debug\net6.0\DragonFight.deps.json
-C:\Programming\C#\C#\DragonFight\DragonFight\bin\Debug\net6.0\DragonFight.runtimeconfig.json
 C:\Programming\C#\C#\DragonFight\DragonFight\bin\Debug\net6.0\DragonFight.dll
 C:\Programming\C#\C#\DragonFight\DragonFight\bin\Debug\net6.0\DragonFight.pdb
-C:\Programming\C#\C#\DragonFight\DragonFight\bin\Debug\net6.0\AlienFruit.FluentConsole.dll
-C:\Programming\C#\C#\DragonFight\DragonFight\bin\Debug\net6.0\AlienFruit.FluentConsole.AsciiArt.dll
-C:\Programming\C#\C#\DragonFight\DragonFight\bin\Debug\net6.0\AlienFruit.Otml.dll
-C:\Programming\C#\C#\DragonFight\DragonFight\bin\Debug\net6.0\Figgle.dll
 C:\Programming\C#\C#\DragonFight\DragonFight\obj\Debug\net6.0\DragonFight.csproj.AssemblyReference.cache
 C:\Programming\C#\C#\DragonFight\DragonFight\obj\Debug\net6.0\DragonFight.GeneratedMSBuildEditorConfig.editorconfig
 C:\Programming\C#\C#\DragonFight\DragonFight\obj\Debug\net6.0\DragonFight.AssemblyInfoInputs.cache
 C:\Programming\C#\C#\DragonFight\DragonFight\obj\Debug\net6.0\DragonFight.AssemblyInfo.cs
 C:\Programming\C#\C#\DragonFight\DragonFight\obj\Debug\net6.0\DragonFight.csproj.CoreCompileInputs.cache
-C:\Programming\C#\C#\DragonFight\DragonFight\obj\Debug\net6.0\DragonFight.csproj.CopyComplete
 C:\Programming\C#\C#\DragonFight\DragonFight\obj\Debug\net6.0\DragonFight.dll
 C:\Programming\C#\C#\DragonFight\DragonFight\obj\Debug\net6.0\refint\DragonFight.dll
 C:\Programming\C#\C#\DragonFight\DragonFight\obj\Debug\net6.0\DragonFight.pdb
-C:\Programming\C#\C#\DragonFight\DragonFight\obj\Debug\net6.0\DragonFight.genruntimeconfig.cache
 C:\Programming\C#\C#\DragonFight\DragonFight\obj\Debug\net6.0\ref\DragonFight.dll
+C:\Programming\C#\C#\DragonFight\DragonFight\bin\Debug\net6.0\DragonFight.exe
+C:\Programming\C#\C#\DragonFight\DragonFight\bin\Debug\net6.0\DragonFight.runtimeconfig.json
+C:\Programming\C#\C#\DragonFight\DragonFight\bin\Debug\net6.0\AlienFruit.FluentConsole.dll
+C:\Programming\C#\C#\DragonFight\DragonFight\bin\Debug\net6.0\AlienFruit.FluentConsole.AsciiArt.dll
+C:\Programming\C#\C#\DragonFight\DragonFight\bin\Debug\net6.0\AlienFruit.Otml.dll
+C:\Programming\C#\C#\DragonFight\DragonFight\bin\Debug\net6.0\Figgle.dll
+C:\Programming\C#\C#\DragonFight\DragonFight\obj\Debug\net6.0\DragonFight.csproj.CopyComplete
+C:\Programming\C#\C#\DragonFight\DragonFight\obj\Debug\net6.0\DragonFight.genruntimeconfig.cache

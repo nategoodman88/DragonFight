@@ -11,13 +11,13 @@ namespace DragonFight
     {
         //public variables for use with actual method below
 
-        public string Name;
-        public string Race;
-        public string Class;
-        public int HP;
-        public int Hit;
-        public int Magic;
-        public int Defense;
+        public string Name { get; set; }
+        public string Race { get; set; }
+        public string Class { get; set; }
+        public int HP { get; set; }
+        public int Hit { get; set; }
+        public int Magic { get; set; }
+        public int Defense { get; set; }
         //lets user create character choosing name, class and race with unqiue attributes, also lets user start over if they are not satisfied 
         public CharacterCreate()
         {
@@ -31,55 +31,31 @@ namespace DragonFight
                 bool choosing = true;
                 while (choosing)
                 {
-                    if (choice == "Human" || choice == "human" || choice == "Elf" || choice == "elf" || choice == "Dwarf" || choice == "dwarf")
+                    if (choice.ToUpper() == "HUMAN" || choice.ToUpper() == "ELF" || choice.ToUpper() == "DWARF")
                     {
-                        switch (choice)
+                        switch (choice.ToUpper())
                         {
-                            case "Human":
-                                this.Race = "Human";
+                            case "HUMAN":
+                                Race = "Human";
                                 HP += 30;
                                 Hit += 10;
-                                Magic += 10;
+                                Magic += 5;
                                 Defense += 10;
                                 break;
 
-                            case "human":
-                                this.Race = "Human";
-                                HP += 30;
-                                Hit += 10;
-                                Magic += 10;
-                                Defense += 10;
-                                break;
-
-                            case "Elf":
-                                this.Race = "Elf";
+                            case "ELF":
+                                Race = "Elf";
                                 HP += 20;
-                                Hit += 20;
-                                Magic += 15;
+                                Hit += 0;
+                                Magic += 20;
                                 Defense += 15;
                                 break;
 
-                            case "elf":
-                                this.Race = "Elf";
-                                HP += 20;
-                                Hit += 20;
-                                Magic += 15;
-                                Defense += 15;
-                                break;
-
-                            case "Dwarf":
-                                this.Race = "Dwarf";
+                            case "DWARF":
+                                Race = "Dwarf";
                                 HP += 40;
                                 Hit += 5;
-                                Magic += 5;
-                                Defense += 15;
-                                break;
-
-                            case "dwarf":
-                                this.Race = "Dwarf";
-                                HP += 40;
-                                Hit += 5;
-                                Magic += 5;
+                                Magic += 0;
                                 Defense += 15;
                                 break;
                         }
@@ -102,54 +78,30 @@ namespace DragonFight
                 bool choosing2 = true;
                 while (choosing2)
                 {
-                    if (choice2 == "Warrior" || choice2 == "warrior" || choice2 == "Mage" || choice2 == "mage" || choice2 == "Knight" || choice2 == "knight")
+                    if (choice2.ToUpper() == "WARRIOR" || choice2.ToUpper() == "MAGE" ||  choice2.ToUpper( )== "KNIGHT")
                     {
                         switch (choice2)
                         {
-                            case "Warrior":
-                                this.Class = "Warrior";
+                            case "WARRIOR":
+                                Class = "Warrior";
                                 HP += 10;
-                                Hit += 5;
+                                Hit += 15;
                                 Magic += 5;
                                 Defense += 5;
                                 break;
 
-                            case "warrior":
-                                this.Class = "Warrior";
-                                HP += 10;
-                                Hit += 5;
-                                Magic += 5;
-                                Defense += 5;
-                                break;
-
-                            case "Mage":
-                                this.Class = "Mage";
+                            case "MAGE":
+                                Class = "Mage";
                                 HP += 5;
                                 Hit += 0;
                                 Magic += 10;
                                 Defense += 0;
                                 break;
 
-                            case "mage":
-                                this.Class = "mage";
+                            case "KNIGHT":
+                                Class = "Knight";
                                 HP += 5;
-                                Hit += 0;
-                                Magic += 10;
-                                Defense += 0;
-                                break;
-
-                            case "Knight":
-                                this.Class = "Knight";
-                                HP += 5;
-                                Hit += 15;
-                                Magic += 0;
-                                Defense += 10;
-                                break;
-
-                            case "knight":
-                                this.Class = "Knight";
-                                HP += 5;
-                                Hit += 15;
+                                Hit += 5;
                                 Magic += 0;
                                 Defense += 10;
                                 break;
@@ -170,19 +122,32 @@ namespace DragonFight
                 Console.WriteLine("Here is your character:");
                 Console.WriteLine("Name: " + this.Name + "\n" + "Race: " + this.Race + "\n" + "Class: " + this.Class);
                 Console.WriteLine("Attributes:\nHP:" + this.HP + "\nHit: " + this.Hit + "\nMagic: " + this.Magic + "\nDefense: " + this.Defense);
+                bool choosingFinal = true;
+                while (choosingFinal)
+                {
+                    Console.WriteLine("Is this okay? Type Y for yes or N for no and to start over, then hit enter: ");
+                    string final = Console.ReadLine();
+                    if (final.ToUpper() == "N")
+                    {
+                        choosingFinal= false;
+                        running = true;
+                    }
+                    else if (final.ToUpper() == "Y")
+                    {
+                        choosingFinal = false;
+                        running = false;
 
-                Console.WriteLine("Is this okay? Type Y for yes or N for no and hit enter: ");
-                string final = Console.ReadLine();
-                if (final == "N" || final == "n")
-                {
-                    running = true;
-                }
-                else
-                {
-                    running = false;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Wrong input, please try again");
+                        choosingFinal = true;
+       
+                    }
+                    
                 }
             }
-        
+
         }
     }
 }
