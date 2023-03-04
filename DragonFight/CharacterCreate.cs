@@ -123,7 +123,7 @@ namespace DragonFight
                 Console.WriteLine("Name: " + this.Name + "\n" + "Race: " + this.Race + "\n" + "Class: " + this.Class);
                 Console.WriteLine("Attributes:\nHP:" + this.HP + "\nHit: " + this.Hit + "\nMagic: " + this.Magic + "\nDefense: " + this.Defense);
                 bool choosingFinal = true;
-                while (choosingFinal)
+                while(choosingFinal)
                 {
                     Console.WriteLine("Is this okay? Type Y for yes or N for no and to start over, then hit enter: ");
                     string final = Console.ReadLine();

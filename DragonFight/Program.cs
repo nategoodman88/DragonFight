@@ -46,12 +46,14 @@ public class Program
                 await Task.Delay(5000);
             }
             await Task.Delay(2000);
-            //character creations phase
+            //character creation phase
             CharacterCreate c = new();
+            await Task.Delay(2000);
             //equipment phase
             EquipPhase e = new();
+            await Task.Delay(2000);
             //battle phase 
-
+            BattlePhase b = new();
             //testing
             Console.ReadLine();
         }
