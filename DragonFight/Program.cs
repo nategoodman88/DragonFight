@@ -54,6 +54,7 @@ public class Program
             await Task.Delay(2000);
             //battle phase 
             BattlePhase b = new();
+            b.doBattlePhase();
             //testing
             Console.ReadLine();
         }
