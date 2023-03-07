@@ -1,13 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "ikuqZ6v9+NGBnNaWptOuvqx8oaqVnMbKQbPNJVNJ/9JiRR6+N/rMHvZKqhGKZuS2FsPGWqrn369vJVvr7DPCZQ==",
+  "dgSpecHash": "ELulQeMD14XMJW4w8MA8azdtib83zymDmLr2IlTtSTyBU3XU5X7bW6qszgCQWTImi04dN/Ixzj7rPsyGQcpA4A==",
   "success": true,
   "projectFilePath": "C:\\Programming\\C#\\C#\\DragonFight\\DragonFight\\DragonFight.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nateg_mayx349\\.nuget\\packages\\alienfruit.fluentconsole\\1.0.10\\alienfruit.fluentconsole.1.0.10.nupkg.sha512",
     "C:\\Users\\nateg_mayx349\\.nuget\\packages\\alienfruit.fluentconsole.asciiart\\1.0.10\\alienfruit.fluentconsole.asciiart.1.0.10.nupkg.sha512",
     "C:\\Users\\nateg_mayx349\\.nuget\\packages\\alienfruit.otml\\1.1.0\\alienfruit.otml.1.1.0.nupkg.sha512",
-    "C:\\Users\\nateg_mayx349\\.nuget\\packages\\figgle\\0.5.1\\figgle.0.5.1.nupkg.sha512"
+    "C:\\Users\\nateg_mayx349\\.nuget\\packages\\figgle\\0.5.1\\figgle.0.5.1.nupkg.sha512",
+    "C:\\Users\\nateg_mayx349\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.14\\microsoft.windowsdesktop.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\nateg_mayx349\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.14\\microsoft.netcore.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\nateg_mayx349\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.14\\microsoft.aspnetcore.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\nateg_mayx349\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.14\\microsoft.netcore.app.host.win-x64.6.0.14.nupkg.sha512"
   ],
   "logs": []
 }

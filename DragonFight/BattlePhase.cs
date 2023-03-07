@@ -12,9 +12,11 @@ namespace DragonFight
     {
         //declare the variables for the dragon attributes as well as variables needed to run through the battle including whose turn it is, amount of damage done, etc. 
 
-        public async void doBattlePhase()
+        public static void doBattlePhase(CharacterCreate c, EquipPhase e)
         {
             Console.WriteLine("Yeahhhh we batttlingggggg ah ah");
+            Console.WriteLine(c.hp); //debugging to make sure variable sticks
+            Console.WriteLine(e.primaryWep); //debugging to make sure variable sticks
             //Eventual bool and while loop to have battle actually happen
         }
     }
